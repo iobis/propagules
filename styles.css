@@ -1,0 +1,58 @@
+/* css styles */
+.navbar-brand {
+    display: none;
+}
+
+.navbar-logo{
+  height: 98px !important;
+  width: 200px !important;
+  max-width: unset !important;
+  max-height: unset !important;
+}
+
+span.menu-text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #024c62;
+}
+
+.title {
+  display: none;
+}
+
+.alt-title {
+  font-weight: 900;
+  color: #024c62;
+  font-size: calc(1.8rem + 0.9vw);
+}
+
+.alt-title-highlight {
+  font-weight: 900;
+  color: #024c62;
+  background-color: #7ae584;
+  font-size: calc(1.8rem + 0.9vw);
+}
+
+.sub-title-highlight {
+  font-weight: 700;
+  color: #024c62;
+  background-color: #7ae584;
+  font-size: calc(1.4rem + 0.9vw);
+}
+
+h2.anchored {
+  font-weight: 700 !important;
+  color: #024c62 !important;
+  border-bottom: none !important;
+}
+
+.sub-text {
+  font-weight: 500 !important;
+  font-size: 1.3rem;
+  color: #25A18F;
+}
+
+h1 {
+  font-weight: 900;
+  color: #024c62;
+}

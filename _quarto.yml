@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "propagules"
+  search: false
+  navbar:
+    right:
+      - href: index.qmd
+        text: About the project
+      - href: index.html#contact
+        text: Contact
+      - href: https://www.obis.org
+        text: OBIS
+    logo: "images/propagules_logo.png"
+
+format:
+  html:
+    theme: 
+      - cosmo
+      - custom.scss
+    css: styles.css
+    toc: false
+    header-includes: |
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+mainfont: Montserrat
+
+
+
